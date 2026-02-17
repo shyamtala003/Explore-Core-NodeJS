@@ -1,12 +1,37 @@
 {
   "name": "explore-core-nodejs",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Hands-on Node.js core concepts with focused runnable examples",
+  "main": "src/index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "lesson:00": "node src/00-foundation/00_event-loop.js",
+    "lesson:01": "node src/00-foundation/01_process.js",
+    "lesson:02": "node src/00-foundation/02_path.js",
+    "lesson:03": "node src/00-foundation/03_buffer.js",
+    "lesson:10": "node src/01-fs/00_read-sync-vs-async.js",
+    "lesson:11": "node src/01-fs/01_promises.js",
+    "lesson:12": "node src/01-fs/02_stream-read.js",
+    "lesson:20": "node src/02-events/00_event-emitter.js",
+    "lesson:30": "node src/03-http/00_basic-server.js",
+    "lesson:31": "node src/03-http/01_routing-server.js",
+    "lesson:32": "node src/03-http/02_query-server.js",
+    "lesson:33": "node src/03-http/03_params-server.js",
+    "lesson:34": "node src/03-http/04_cookies-server.js",
+    "lesson:40": "node src/04-streams/00_pipe-download.js",
+    "lesson:41": "node src/04-streams/01_backpressure.js",
+    "lesson:42": "node src/04-streams/02_gzip-server.js",
+    "lesson:50": "node src/05-worker-threads/00_blocking-demo.js",
+    "lesson:51": "node src/05-worker-threads/01_worker-main.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "core-modules",
+    "event-loop",
+    "streams",
+    "worker-threads"
+  ],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
