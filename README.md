@@ -3,7 +3,7 @@
 A clean, progressive Node.js core learning lab.
 
 ## Goal
-Understand how Node works under the hood: event loop, process, fs, events, http, streams, and worker threads.
+Understand how Node works under the hood: event loop, process, fs, events, http, streams, worker threads, and child processes.
 
 ## Project Structure
 - `src/00-foundation` -> event loop, process, path, buffer
@@ -12,6 +12,7 @@ Understand how Node works under the hood: event loop, process, fs, events, http,
 - `src/03-http` -> basic and routed HTTP servers
 - `src/04-streams` -> pipe, backpressure, gzip
 - `src/05-worker-threads` -> CPU blocking vs worker thread offloading
+- `src/06-child-process` -> spawn, exec, fork and IPC basics
 - `src/data` -> sample data used by examples
 
 ## Run Lessons
@@ -38,6 +39,10 @@ npm run lesson:42
 
 npm run lesson:50
 npm run lesson:51
+
+npm run lesson:60
+npm run lesson:61
+npm run lesson:62
 ```
 
 ## HTTP/Stream Lessons Testing
@@ -53,5 +58,5 @@ curl --compressed http://localhost:5003/gzip
 
 ## Suggested Next Expansion
 - Add tests with Node's built-in test runner (`node:test`)
-- Add child process and cluster examples
+- Add cluster examples
 - Add TCP/UDP (`net`, `dgram`) exercises

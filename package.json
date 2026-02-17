@@ -23,7 +23,10 @@
     "lesson:41": "node src/04-streams/01_backpressure.js",
     "lesson:42": "node src/04-streams/02_gzip-server.js",
     "lesson:50": "node src/05-worker-threads/00_blocking-demo.js",
-    "lesson:51": "node src/05-worker-threads/01_worker-main.js"
+    "lesson:51": "node src/05-worker-threads/01_worker-main.js",
+    "lesson:60": "node src/06-child-process/00_spawn-stream.js",
+    "lesson:61": "node src/06-child-process/01_exec-buffer.js",
+    "lesson:62": "node src/06-child-process/02_fork-parent.js"
   },
   "keywords": [
     "nodejs",
